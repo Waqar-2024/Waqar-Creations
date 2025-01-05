@@ -1,0 +1,14 @@
+
+<mat-toolbar color="primary">
+    <button class="menu-button" mat-icon-button aria-label="Menu Icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span>Waqar Ahmed</span>
+    <span *ngIf="menuDisplay" class="example-spacer"></span>
+
+   <ng-container *ngIf="menuDisplay">
+    <button mat-button>HOME</button>
+    <button mat-button>ABOUT</button>
+    <button mat-button>CONTACT</button>
+</ng-container>
+</mat-toolbar>

@@ -1,0 +1,30 @@
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.menu-button {
+    display: block; /* Initially show the menu button */
+  }
+  mat-toolbar {
+    display: flex;
+    justify-content: space-between;  /* Space between items */
+    align-items: center;  /* Vertical alignment */
+  }
+
+
+
+
+
+
+
+
+
+
+  
+@media (min-width: 701px) {
+    .menu-button { 
+      display: none; /* Hide the menu button when the screen is larger than 700px */
+    }
+
+  }
+  
