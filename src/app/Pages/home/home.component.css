@@ -1,0 +1,99 @@
+/*  text and image Cards container css  */
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+/* text card and image card both css */
+.text-card,
+.image-card {
+    flex: 1 1 0;
+    max-width: 47%;
+}
+
+/* only text card css */
+.text-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px 26px;
+}
+
+/* css text card p section for better reading experience */
+.text-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* text card heading css  */
+.text-card mat-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* image card css apply shadow */
+.image-card {
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* image which are in image container */
+.image-card img {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.btn_link {
+    background-color: #ff5722;
+    color: white !important;
+}
+
+/* text card link style when hover  */
+.btn_link:hover {
+    background-color: #e0e0e0;
+    color: #333333 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+
+    /* Stack cards vertically */
+    .cards-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Full width for smaller screens */
+    .text-card,
+    .image-card {
+        max-width: 100%;
+        margin-bottom: 6px;
+    }
+
+    /* heading for margin auto */
+    .text-card mat-card-header {
+        font-size: 1;
+        margin: auto;
+    }
+
+    /* for paragraph text center */
+    .text-card p {
+        font-size: 1.2rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    /* in text container text and button for text align center */
+    .text-card mat-card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+
+
+
+}

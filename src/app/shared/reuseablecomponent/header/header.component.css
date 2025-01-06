@@ -4,7 +4,6 @@ mat-toolbar {
   justify-content: space-between;
   /* Space between items */
   align-items: center;
-  /* Vertical alignment */
 }
 
 /* for space between name and pages */
@@ -15,6 +14,17 @@ mat-toolbar {
 /* menu button display */
 .menu-button {
   display: block;
+ 
+}
+
+button{
+ padding: 8px 20px;
+ border-radius: 3px;
+}
+
+button:hover{
+  background-color: #ff5722 ;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* media querry for when use menu button to show */
