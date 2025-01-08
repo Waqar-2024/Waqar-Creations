@@ -2,7 +2,7 @@
 .cards-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
+    padding: 10px;
 }
 
 /* text card and image card both css */

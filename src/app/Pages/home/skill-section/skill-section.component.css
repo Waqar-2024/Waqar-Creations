@@ -2,6 +2,8 @@
 mat-grid-list {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     margin: 30px;
+
+     
 }
 
 /* Reduce space below the header */
@@ -21,7 +23,10 @@ mat-grid-list {
   }
   
   /* media querry upto 400px */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 425px) {
+    mat-grid-list{
+      padding-bottom: calc(250% + -55px) !important;
+    }
     mat-card-title{
       font-size: 0.8em;
     }
