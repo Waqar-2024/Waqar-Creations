@@ -4,12 +4,11 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { CommonModule } from '@angular/common';
-import { DeveloperIntroComponent } from '../developer-intro/developer-intro.component';
 
 @Component({
   selector: 'app-skill-section',
   standalone: true,
-  imports: [MatGridListModule,MatCardModule,MatIconModule,MatProgressBarModule,CommonModule,DeveloperIntroComponent],
+  imports: [MatGridListModule,MatCardModule,MatIconModule,MatProgressBarModule,CommonModule],
   templateUrl: './skill-section.component.html',
   styleUrl: './skill-section.component.css'
 })

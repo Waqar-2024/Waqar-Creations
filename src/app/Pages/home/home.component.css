@@ -27,8 +27,9 @@
 
 /* text card heading css  */
 .text-card mat-card-title {
-    font-size: 1.5rem;
+    font-size: 33px;
     font-weight: bold;
+    color: #e50914;
 }
 
 /* image card css apply shadow */
@@ -47,8 +48,9 @@
 
 /* button css  */
 .btn_link {
-    background-color: #ff5722;
+    background-color: #e50914;
     color: white !important;
+   padding: 20px !important;
 }
 
 /* text card link style when hover  */
@@ -95,6 +97,10 @@
         height: 100%;
     }
 
-
+    /* text card heading css  */
+    .text-card mat-card-title {
+        font-size: 25px;
+        text-align: center;
+    }
 
 }

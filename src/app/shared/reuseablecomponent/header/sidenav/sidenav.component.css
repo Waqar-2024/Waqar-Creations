@@ -26,13 +26,14 @@
     /* css All pages excluded x like home..   */
     margin: 7vh;
     padding: 8px 8px 8px 32px;
-    background-color: #f1f1f1da;
+    background-color: #e50914;
+    color: #fff;
+     
 }
 
 .sidenav a:hover:not(.closebtn) {
     /* Hover All pages like home..   */
-    color: #fff;
-    background-color: #ff5722;
+    background-color: #f1f1f1da;
 }
 
 .sidenav a.closebtn:hover {
@@ -50,3 +51,4 @@
     margin-left: 50px;
     border-radius: 50%;
 }
+

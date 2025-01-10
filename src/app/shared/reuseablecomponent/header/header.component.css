@@ -2,7 +2,6 @@
 mat-toolbar {
   display: flex;
   justify-content: space-between;
-  /* Space between items */
   align-items: center;
 }
 

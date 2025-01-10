@@ -14,14 +14,14 @@
     text-align: center;
     color: #e50914;
     box-shadow: none;
-    padding: 10px;
+    padding: 0px;
     border-radius: 8px;
 }
 
 /* card1 which have heading there heading css  */
 #col_crd_1 mat-card-title {
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.2;
     font-weight: bold;
 }
@@ -30,7 +30,7 @@
 .highlight {
     font-weight: bold;
     color: #4f4f4f;
-    font-size: 32px;
+    font-size: 25px;
     margin-top: 15px;
 }
 
@@ -56,6 +56,7 @@
 .cards mat-card-title {
     font-weight: bold;
     font-size: 30px;
+    color: #e50914;
 }
 
 /* Icon css */
@@ -86,7 +87,7 @@
 
 /*cards button css  */
 .btn_link {
-    background-color: #ff5722;
+    background-color: #e50914;
     display: inline-block;
     width: 70%;
     margin: auto;
@@ -94,7 +95,7 @@
     border: none;
     padding: 10px 20px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 /* when hover to button then css */
@@ -112,19 +113,11 @@
         gap: 0px
     }
 
-    /* cards 1 titte section has div this is css for that */
-    #col_crd_1 mat-card-title {
-        font-size: 25px;
-    }
-
-    /* cards 1 titte section has div this is css for that */
-    .highlight {
-        font-size: 18px;
-    }
-
-    /* button font-size change */
-    .btn_link {
-        font-size: 18px;
+    /* 2nd card which are container */
+    .cont_aval {
+        flex-direction: column;
+        width: 90%;
+        gap: 10px;
     }
 
     /* cards ul  */
@@ -132,10 +125,27 @@
         word-spacing: normal;
     }
 
-    /* 2nd card which are container */
-    .cont_aval {
-        flex-direction: column;
-        width: 90%;
-        gap: 10px;
+    /* button font-size change */
+    .btn_link {
+        font-size: 18px;
+    }
+}
+
+/* media querry for tablet */
+@media (max-width: 768px) {
+
+      /* tittle in cards */
+    .cards mat-card-title {
+        font-size: 22px;
+    }
+
+    /* cards 1 titte section has div this is css for that */
+    #col_crd_1 mat-card-title {
+        font-size: 25px;
+    }
+
+     /* cards 1 titte section has div this is css for that */
+     .highlight {
+        font-size: 18px;
     }
 }
