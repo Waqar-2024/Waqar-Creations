@@ -86,7 +86,7 @@
 }
 
 /*cards button css  */
-.btn_link {
+/* .btn_link {
     background-color: #e50914;
     display: inline-block;
     width: 70%;
@@ -96,14 +96,14 @@
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 7px;
-}
+} */
 
 /* when hover to button then css */
-.btn_link:hover {
+/* .btn_link:hover {
     background-color: #e0e0e0;
     color: #333333;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
+} */
 
 /* media querry upto 430px */
 @media (max-width: 430px) {

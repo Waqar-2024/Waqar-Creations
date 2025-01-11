@@ -23,9 +23,10 @@
                     <li>Deliver an exceptional experience</li>
                 </ul>
             </mat-card-content>
-            <button class="btn_link" mat-button>
+            <!-- <button class="btn_link" mat-button>
                 Hire Full-Time
-            </button>
+            </button> -->
+            <app-button [routerLink]="'/contact'" [button]="'Hire Full-Time'"> </app-button>
         </mat-card>
         <!-- 2nd card -->
         <mat-card class="cards">
@@ -39,8 +40,9 @@
                     <li>Deliver an exceptional experience</li>
                 </ul>
             </mat-card-content>
-            <button class="btn_link" mat-button>
+            <!-- <button class="btn_link" mat-button>
                 Hire Part-Time
-            </button>
+            </button> -->
+            <app-button [routerLink]="'/contact'" [button]="'Hire Part-Time'"> </app-button>
         </mat-card>
     </mat-card>

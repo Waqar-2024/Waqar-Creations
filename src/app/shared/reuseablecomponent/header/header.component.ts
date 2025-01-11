@@ -5,12 +5,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { CommonModule } from '@angular/common';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [CommonModule, MatToolbarModule, MatButtonModule, MatIconModule,
-    MatSidenavModule, SidenavComponent],
+    MatSidenavModule, SidenavComponent,RouterModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

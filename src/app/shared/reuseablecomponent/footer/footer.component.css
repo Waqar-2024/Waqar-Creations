@@ -31,18 +31,17 @@ footer .container {
 ul {
     padding: 0;
     margin: 0;
-    list-style: none;
     line-height: 1.5;
 }
 
+/* all li */
+li{
+    list-style: none;
+}
+
 /* links css */
-ul li a {
+ li a {
     text-decoration: none;
     color: white;
 }
 
-/* mail link */
-.mail{
-    color: white;
-    text-decoration: none;
-}
