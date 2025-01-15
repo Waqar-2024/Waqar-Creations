@@ -80,7 +80,10 @@
 
             <br>
             <button (click)="submit_Form(form)" [disabled]="form.invalid" type="submit">CREATE ACCOUNT</button>
-            <p class="conditions">Already have an account? <a class="for_signIn" href="#">Sign in</a></p>
+            <p class="conditions">Already have an account? 
+                <!-- <a class="for_signIn" href="#">Sign in</a> -->
+                <a class="for_signIn"  mat-button [routerLink]="'/login'">Sign in</a>
+            </p>
 
         </form>
 

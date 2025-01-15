@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-signup-form',
   standalone: true,
-  imports: [FormsModule,CommonModule],
+  imports: [FormsModule,CommonModule,RouterModule],
   templateUrl: './signup-form.component.html',
   styleUrl: './signup-form.component.css'
 })
@@ -17,6 +18,8 @@ export class SignupFormComponent {
   password:'',
   repeatPassword:''
  }
+
+ constructor(private router: Router){}
 
 //  Use for confirm password match
  passwordMatchValidator(form: NgForm) {
@@ -31,6 +34,7 @@ export class SignupFormComponent {
 // Submit form
 submit_Form(form:NgForm){
  form.reset();
+ this.router.navigate(['/login']);
 }
 
 
